@@ -1,0 +1,78 @@
+*{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+
+.page1{
+      background: linear-gradient(#00000080, rgba(0, 0, 0, 0.5)), 
+        url('flowers.jpg');
+      height: 100vh;
+      background-size: cover;
+      color: aliceblue;
+
+}
+
+.header1{
+
+padding: 40px;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+font-family: math;
+justify-content: space-between;
+display: flex;
+
+}
+
+.contant{
+max-width: 70%;
+margin: auto;
+display: flex;
+justify-content:space-between;
+flex-direction: column;
+height: 100%;
+
+
+
+}
+
+.introduction{
+      justify-content: center;
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 34px;
+      font-weight: bold;
+      font-size: 40px;
+      color: rgb(238, 174, 229);
+}
+
+.body{
+
+
+text-align: center;    
+ margin: 0px auto;
+ max-width: 500px;
+ margin-bottom: 89px;
+ font-size: 25px;
+ font-family: math;
+
+}
+
+.Contact-us-btn{
+      margin: auto;
+      margin-top: 89px;
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 34px;
+      padding: 20px;
+      font-weight: bold;
+      background-color: transparent;
+      color: rgb(232, 176, 223);
+      cursor: pointer;
+      padding-left: 40px;
+      padding-right: 40px;
+}
+
+.Contact-us-btn:hover{
+background-color: rgb(255, 255, 255);
+}
